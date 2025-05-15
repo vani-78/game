@@ -534,8 +534,8 @@ td {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        overflow-y: auto;
-        overflow-x: auto;
+/*         overflow-y: auto; */
+/*         overflow-x: auto; */
     }
     #gameTitle {
         margin-top: 250px;
