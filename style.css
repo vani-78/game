@@ -14,7 +14,6 @@ body {
     /* background-repeat: no-repeat; */
     /* background-color: darkslateblue; */
     overflow-y: auto;
-    overflow-x: auto;
 
 }
 
@@ -503,7 +502,6 @@ td {
     background-color: yellow;
 }
 
-
 @media (max-width: 800px) {
     .scoreBoard{
         width: 80%;
@@ -534,8 +532,8 @@ td {
         display: flex;
         flex-direction: column;
         gap: 30px;
-/*         overflow-y: auto; */
-/*         overflow-x: auto; */
+        /* overflow-y: auto; */
+        /* overflow-x: auto; */
     }
     #gameTitle {
         margin-top: 250px;
@@ -548,6 +546,9 @@ td {
         margin-bottom: 20px;
     }
     #pageTitle {
-        margin-top: 150px;
+        margin-top: 250px;
+    }
+    #placePara, #movePara, #scorepara, #winPara {
+        font-size: 14px;
     }
 }
