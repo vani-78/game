@@ -80,7 +80,7 @@ let board = document.getElementById('board');
 // const centerY = 300;
 
 const centerX = window.innerWidth / 2;
-const centerY = window.innerHeight / 2;
+const centerY = 300;
 
 
 function startGame(){
