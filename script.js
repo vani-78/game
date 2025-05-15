@@ -323,15 +323,25 @@ let inScore;
 let mainScore;
 let outScore;
 
+// const mainVertex = generatePoints(centerX, centerY, 150);
+// const outVertex = generatePoints(centerX, centerY, 225);
+// const inVertex = generatePoints(centerX, centerY, 75);
+
+
+// const inScore = generatePointScore(centerX, centerY, 45);
+// const mainScore = generatePointScore(centerX, centerY, 110);
+// const outScore = generatePointScore(centerX, centerY, 175);
+
 if (window.matchMedia("(max-width: 480px)").matches) {
-     mainVertex = generatePoints(centerX, centerY, 75);
-    outVertex = generatePoints(centerX, centerY, 112.5);
-    inVertex = generatePoints(centerX, centerY, 37.5);
-    inScore = generatePointScore(centerX, centerY, 22.5);
-    mainScore = generatePointScore(centerX, centerY, 45);
-    outScore = generatePointScore(centerX, centerY, 67.5);
+     mainVertex = generatePoints(centerX, centerY, 120);
+    outVertex = generatePoints(centerX, centerY, 180);
+    inVertex = generatePoints(centerX, centerY, 60);
+    inScore = generatePointScore(centerX, centerY, 35);
+    mainScore = generatePointScore(centerX, centerY, 85);
+    outScore = generatePointScore(centerX, centerY, 135);
 //   document.getElementById("myElement").style.display = "none";
-} else {
+} 
+else if(window.matchMedia("(min-width: 480px)").matches) {
      mainVertex = generatePoints(centerX, centerY, 150);
     outVertex = generatePoints(centerX, centerY, 225);
     inVertex = generatePoints(centerX, centerY, 75);
@@ -340,15 +350,6 @@ if (window.matchMedia("(max-width: 480px)").matches) {
    outScore = generatePointScore(centerX, centerY, 175);
 //   document.getElementById("myElement").style.display = "block";
 }
-
-
-
-
-const inScore = generatePointScore(centerX, centerY, 45);
-const mainScore = generatePointScore(centerX, centerY, 110);
-const outScore = generatePointScore(centerX, centerY, 175);
-// const crossScore1 = generatePointScoreCross(centerX, centerY, 110);
-// const crossScore2 = generatePointScoreCross(centerX, centerY, 175);
 
 const inScoreValue = [8, 8, 9, 8, 8, 9];
 const mainScoreValue = [5, 6, 4, 5, 6, 4];
