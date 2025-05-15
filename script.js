@@ -335,11 +335,11 @@ let outScore;
 
 if (window.matchMedia("(max-width: 800px)").matches) {
      mainVertex = generatePoints(centerX, centerY, 120);
-    outVertex = generatePoints(centerX, centerY, 180);
+    outVertex = generatePoints(centerX, centerY, 170);
     inVertex = generatePoints(centerX, centerY, 60);
     inScore = generatePointScore(centerX, centerY, 35);
     mainScore = generatePointScore(centerX, centerY, 85);
-    outScore = generatePointScore(centerX, centerY, 135);
+    outScore = generatePointScore(centerX, centerY, 125);
 //   document.getElementById("myElement").style.display = "none";
 } 
 else if(window.matchMedia("(min-width: 801px)").matches) {
