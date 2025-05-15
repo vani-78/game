@@ -76,10 +76,11 @@ playBt.addEventListener('click', () => {
 
 let board = document.getElementById('board');
 
-const centerX = 240;
-const centerY = 300;
+// const centerX = 240;
+// const centerY = 300;
 
-
+const centerX = window.innerWidth / 2;
+const centerY = window.innerHeight / 2;
 
 
 function startGame(){
