@@ -332,7 +332,7 @@ let outScore;
 // const mainScore = generatePointScore(centerX, centerY, 110);
 // const outScore = generatePointScore(centerX, centerY, 175);
 
-if (window.matchMedia("(max-width: 480px)").matches) {
+if (window.matchMedia("(max-width: 780px)").matches) {
      mainVertex = generatePoints(centerX, centerY, 120);
     outVertex = generatePoints(centerX, centerY, 180);
     inVertex = generatePoints(centerX, centerY, 60);
@@ -341,7 +341,7 @@ if (window.matchMedia("(max-width: 480px)").matches) {
     outScore = generatePointScore(centerX, centerY, 135);
 //   document.getElementById("myElement").style.display = "none";
 } 
-else if(window.matchMedia("(min-width: 480px)").matches) {
+else if(window.matchMedia("(min-width: 781px)").matches) {
      mainVertex = generatePoints(centerX, centerY, 150);
     outVertex = generatePoints(centerX, centerY, 225);
     inVertex = generatePoints(centerX, centerY, 75);
