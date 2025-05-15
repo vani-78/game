@@ -463,7 +463,7 @@ label {
     margin-right: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
     .scoreBoard{
         width: 95%;
         margin-top: 500px;
