@@ -503,6 +503,7 @@ td {
     background-color: yellow;
 }
 
+
 @media (max-width: 800px) {
     .scoreBoard{
         width: 80%;
@@ -527,15 +528,17 @@ td {
         
     }
     #scorewinsyst {
-        margin-top: 350px;
+        margin-top: 150px;
     }
     #inst {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        overflow-y: auto;
+        overflow-x: auto;
     }
     #gameTitle {
-        margin-top: 250px;
+        /* margin-top: 250px; */
     }
     #pdetails {
         display: flex;
@@ -545,4 +548,4 @@ td {
         margin-bottom: 20px;
     }
 }
-}
+
