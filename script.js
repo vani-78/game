@@ -76,7 +76,7 @@ playBt.addEventListener('click', () => {
 
 let board = document.getElementById('board');
 
-const centerX = 300;
+const centerX = 240;
 const centerY = 300;
 
 
