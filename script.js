@@ -79,7 +79,7 @@ let board = document.getElementById('board');
 // const centerX = 240;
 // const centerY = 300;
 
-const centerX = window.innerWidth / 2;
+const centerX = 240;
 const centerY = 300;
 
 
