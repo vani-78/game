@@ -528,7 +528,7 @@ td {
         
     }
     #scorewinsyst {
-        margin-top: 150px;
+        margin-top: 350px;
     }
     #inst {
         display: flex;
@@ -538,7 +538,7 @@ td {
         overflow-x: auto;
     }
     #gameTitle {
-        /* margin-top: 250px; */
+        margin-top: 250px;
     }
     #pdetails {
         display: flex;
@@ -547,5 +547,7 @@ td {
         margin-top: 50px;
         margin-bottom: 20px;
     }
+    #pageTitle {
+        margin-top: 250px;
+    }
 }
-
