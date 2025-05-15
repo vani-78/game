@@ -138,6 +138,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
+    right: 0;
     overflow-y: auto;
     overflow-x: auto;
 }
@@ -466,16 +467,7 @@ label {
     margin-right: 10px;
 }
 
-@media (max-width: 800px) {
-    .scoreBoard{
-        width: 95%;
-        margin-top: 500px;
-        margin-left: 80px;
-    }
-    .turn {
-        position:static
-    }
-}
+
 
 #moveHis {
     height: 500px;
@@ -509,4 +501,24 @@ table {
 td {
     text-align: center;
     background-color: yellow;
+}
+
+@media (max-width: 800px) {
+    .scoreBoard{
+        width: 80%;
+        margin-top: 500px;
+        margin-left: 80px;
+    }
+    .turn {
+        position:static
+    }
+    .infoBoard {
+        display: flex;
+        flex-direction: column;
+    }
+    .pHistory, .lBoard {
+        margin-left: 80px;
+        width: 80%;
+    }
+
 }
