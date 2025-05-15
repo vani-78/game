@@ -316,9 +316,32 @@ function generateEdgeCrossOut(cornerPoints1, cornerPoints2, crossEdge){
     }
 }
 
-const mainVertex = generatePoints(centerX, centerY, 150);
-const outVertex = generatePoints(centerX, centerY, 225);
-const inVertex = generatePoints(centerX, centerY, 75);
+let mainVertex;
+let outVertex;
+let inVertex;
+let inScore;
+let mainScore;
+let outScore;
+
+if (window.matchMedia("(max-width: 480px)").matches) {
+     mainVertex = generatePoints(centerX, centerY, 75);
+    outVertex = generatePoints(centerX, centerY, 112.5);
+    inVertex = generatePoints(centerX, centerY, 37.5);
+    inScore = generatePointScore(centerX, centerY, 22.5);
+    mainScore = generatePointScore(centerX, centerY, 45);
+    outScore = generatePointScore(centerX, centerY, 67.5);
+//   document.getElementById("myElement").style.display = "none";
+} else {
+     mainVertex = generatePoints(centerX, centerY, 150);
+    outVertex = generatePoints(centerX, centerY, 225);
+    inVertex = generatePoints(centerX, centerY, 75);
+    inScore = generatePointScore(centerX, centerY, 45);
+   mainScore = generatePointScore(centerX, centerY, 110);
+   outScore = generatePointScore(centerX, centerY, 175);
+//   document.getElementById("myElement").style.display = "block";
+}
+
+
 
 
 const inScore = generatePointScore(centerX, centerY, 45);
