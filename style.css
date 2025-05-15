@@ -551,4 +551,9 @@ td {
     #placePara, #movePara, #scorepara, #winPara {
         font-size: 14px;
     }
+    #introPage {
+        background-image: url('mobilebg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
